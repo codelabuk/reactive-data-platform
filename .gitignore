@@ -1,0 +1,72 @@
+# sbt specific
+.cache
+.history
+.lib/
+dist/*
+target/
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+project/target/
+project/project/
+
+# Scala-IDE specific
+.scala_dependencies
+.worksheet
+.cache-main
+.cache-tests
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# VS Code
+.vscode/
+.metals/
+.bloop/
+.bsp/
+metals.sbt
+
+# Eclipse
+.classpath
+.project
+.settings/
+bin/
+
+# Mac
+.DS_Store
+
+# Other
+*.class
+*.log
+*.swp
+*.swo
+*~
+
+# Ensime
+.ensime
+.ensime_cache/
+
+# Dotty-IDE
+.dotty-ide*
+.dotty-ide.json
+
+# Bloop
+.bloop/
+project/.bloop/
+
+# Metals
+.metals/
+project/metals.sbt
+
+# Build tool version files
+.java-version
+.sbtopts
+.jvmopts
+
+# Credentials
+credentials.sbt
