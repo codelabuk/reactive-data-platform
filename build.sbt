@@ -16,12 +16,11 @@ lazy val commonSettings = Seq(
 //  assembly / assemblyMergeStrategy := {
 //    case PathList("META-INF", xs @ _*) => xs match {
 //      case "MANIFEST.MF" :: Nil => MergeStrategy.discard
-//      case "module-info.class" :: Nil => MergeStrategy.discard  // ← FIX for your error
-//      case _ => MergeStrategy.discard
+//      case "module-info.class" :: Nil => MergeStrategy.discard   //TODO fixme
 //    }
 //    case "application.conf" => MergeStrategy.concat
 //    case "reference.conf" => MergeStrategy.concat
-//    case PathList("module-info.class") => MergeStrategy.discard  // ← Also this
+//    case PathList("module-info.class") => MergeStrategy.discard  //TODO fixme
 //    case x if x.endsWith(".proto") => MergeStrategy.first
 //    case x if x.endsWith(".class") => MergeStrategy.first
 //    case _ => MergeStrategy.first
