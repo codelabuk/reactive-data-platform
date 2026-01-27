@@ -1,4 +1,4 @@
-package com.codelabuk.reactive.data.platform.model
+package com.codelabuk.reactive.data.common.model
 
 case class UserEvent(evemtId: String,
                      userId: String,
